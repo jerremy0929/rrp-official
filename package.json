@@ -2,6 +2,9 @@
   "name": "react-router-practice-official",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "url": "https://github.com/jerremy0929/rrp-official.git"
+  },
   "dependencies": {
     "@types/jest": "^24.0.12",
     "@types/node": "^11.13.8",
@@ -9,6 +12,7 @@
     "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
     "typescript": "^3.4.5"
   },
@@ -34,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^4.3.3",
     "prettier": "^1.17.0",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
