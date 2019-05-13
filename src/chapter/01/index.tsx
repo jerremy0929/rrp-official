@@ -1,5 +1,3 @@
-import React from 'react'
+import Basic from './Basic'
 
-export default () => {
-  return <div>Lesson 01</div>
-}
+export { Basic }

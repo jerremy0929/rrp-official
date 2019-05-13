@@ -4,10 +4,7 @@ import { Link } from 'react-router-dom'
 export default () => (
   <ul>
     <li>
-      <Link to="/lesson01">Lesson 01</Link>
-    </li>
-    <li>
-      <Link to="/lesson02">Lesson 02</Link>
+      <Link to="/basic-routing">Quick Start: Basic Routing</Link>
     </li>
   </ul>
 )
