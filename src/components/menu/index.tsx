@@ -6,5 +6,8 @@ export default () => (
     <li>
       <Link to="/basic-routing">Quick Start: Basic Routing</Link>
     </li>
+    <li>
+      <Link to="/nested-routing">Quick Start: Nested Routing</Link>
+    </li>
   </ul>
 )

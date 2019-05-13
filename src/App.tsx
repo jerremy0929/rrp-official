@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import Drawer from './components/drawer'
 import Menu from './components/menu'
 
-import { Basic } from './chapter/01'
+import { Basic, Nested } from './chapter/01'
 
 const App: React.FC = () => {
   return (
@@ -12,6 +12,7 @@ const App: React.FC = () => {
       <div className="App">
         <Switch>
           <Route path="/basic-routing" component={Basic} />
+          <Route path="/nested-routing" component={Nested} />
           <Route path="/" component={Basic} exact={true} />
         </Switch>
       </div>
