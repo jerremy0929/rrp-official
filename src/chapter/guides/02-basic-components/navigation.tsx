@@ -13,19 +13,25 @@ export default () => {
           <li>
             <NavLink
               activeStyle={{ color: '#f24' }}
-              to="/navigation"
+              to="/guides/navigation"
               exact={true}
             >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink activeStyle={{ color: '#f24' }} to="/navigation/about">
+            <NavLink
+              activeStyle={{ color: '#f24' }}
+              to="/guides/navigation/about"
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink activeStyle={{ color: '#f24' }} to="/navigation/contact">
+            <NavLink
+              activeStyle={{ color: '#f24' }}
+              to="/guides/navigation/contact"
+            >
               Contact
             </NavLink>
           </li>
@@ -33,9 +39,9 @@ export default () => {
       </nav>
 
       <Switch>
-        <Route path="/navigation" component={Home} />
-        <Route path="/navigation/about" component={About} />
-        <Route path="/navigation/contact" component={Contact} />
+        <Route path="/guides/navigation" component={Home} />
+        <Route path="/guides/navigation/about" component={About} />
+        <Route path="/guides/navigation/contact" component={Contact} />
       </Switch>
     </div>
   )

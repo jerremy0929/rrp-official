@@ -11,21 +11,21 @@ export default () => {
       <nav>
         <ul>
           <li>
-            <Link to="/matching-two">Home</Link>
+            <Link to="/guides/matching-two">Home</Link>
           </li>
           <li>
-            <Link to="/matching-two/about">About</Link>
+            <Link to="/guides/matching-two/about">About</Link>
           </li>
           <li>
-            <Link to="/matching-two/contact">Contact</Link>
+            <Link to="/guides/matching-two/contact">Contact</Link>
           </li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/matching-two" component={Home} exact={true} />
-        <Route path="/matching-two/about" component={About} />
-        <Route path="/matching-two/contact" component={Contact} />
+        <Route path="/guides/matching-two" component={Home} exact={true} />
+        <Route path="/guides/matching-two/about" component={About} />
+        <Route path="/guides/matching-two/contact" component={Contact} />
       </Switch>
     </div>
   )

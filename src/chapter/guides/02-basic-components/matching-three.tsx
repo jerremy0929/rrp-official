@@ -12,21 +12,21 @@ export default () => {
       <nav>
         <ul>
           <li>
-            <Link to="/matching-three">Home</Link>
+            <Link to="/guides/matching-three">Home</Link>
           </li>
           <li>
-            <Link to="/matching-three/about">About</Link>
+            <Link to="/guides/matching-three/about">About</Link>
           </li>
           <li>
-            <Link to="/matching-three/contact">Contact</Link>
+            <Link to="/guides/matching-three/contact">Contact</Link>
           </li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/matching-three" component={Home} exact={true} />
-        <Route path="/matching-three/about" component={About} />
-        <Route path="/matching-three/contact" component={Contact} />
+        <Route path="/guides/matching-three" component={Home} exact={true} />
+        <Route path="/guides/matching-three/about" component={About} />
+        <Route path="/guides/matching-three/contact" component={Contact} />
         {/* when none of the above match, <NoMatch> will be rendered */}
         <Route component={NoMatch} />
       </Switch>

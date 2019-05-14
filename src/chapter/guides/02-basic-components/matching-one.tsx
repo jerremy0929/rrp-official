@@ -11,16 +11,16 @@ export default () => {
       <nav>
         <ul>
           <li>
-            <Link to="/matching-one/about">About</Link>
+            <Link to="/guides/matching-one/about">About</Link>
           </li>
           <li>
-            <Link to="/matching-one/contact">Users</Link>
+            <Link to="/guides/matching-one/contact">Users</Link>
           </li>
         </ul>
       </nav>
 
-      <Route path="/matching-one/about" component={About} />
-      <Route path="/matching-one/contact" component={Contact} />
+      <Route path="/guides/matching-one/about" component={About} />
+      <Route path="/guides/matching-one/contact" component={Contact} />
       <Route component={Always} />
     </div>
   )

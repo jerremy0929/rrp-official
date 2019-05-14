@@ -33,19 +33,19 @@ export default () => {
     <div>
       <ul>
         <li>
-          <Link to="/nested-routing/">Home</Link>
+          <Link to="/guides/nested-routing">Home</Link>
         </li>
         <li>
-          <Link to="/nested-routing/about">About</Link>
+          <Link to="/guides/nested-routing/about">About</Link>
         </li>
         <li>
-          <Link to="/nested-routing/topics">Topics</Link>
+          <Link to="/guides/nested-routing/topics">Topics</Link>
         </li>
       </ul>
 
-      <Route path="/nested-routing" component={Home} exact={true} />
-      <Route path="/nested-routing/about" component={About} />
-      <Route path="/nested-routing/topics" component={Topics} />
+      <Route path="/guides/nested-routing" component={Home} exact={true} />
+      <Route path="/guides/nested-routing/about" component={About} />
+      <Route path="/guides/nested-routing/topics" component={Topics} />
     </div>
   )
 }

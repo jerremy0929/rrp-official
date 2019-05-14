@@ -21,21 +21,31 @@ export default (props: React.FC) => {
       <nav>
         <ul>
           <li>
-            <Link to="/route-rendering-props">Home</Link>
+            <Link to="/guides/route-rendering-props">Home</Link>
           </li>
           <li>
-            <Link to="/route-rendering-props/about">About</Link>
+            <Link to="/guides/route-rendering-props/about">About</Link>
           </li>
           <li>
-            <Link to="/route-rendering-props/contact">Contact</Link>
+            <Link to="/guides/route-rendering-props/contact">Contact</Link>
           </li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/route-rendering-props" component={Home} exact={true} />
-        <Route path="/route-rendering-props/about" render={renderAbout} />
-        <Route path="/route-rendering-props/contact" render={renderContact} />
+        <Route
+          path="/guides/route-rendering-props"
+          component={Home}
+          exact={true}
+        />
+        <Route
+          path="/guides/route-rendering-props/about"
+          render={renderAbout}
+        />
+        <Route
+          path="/guides/route-rendering-props/contact"
+          render={renderContact}
+        />
       </Switch>
     </div>
   )

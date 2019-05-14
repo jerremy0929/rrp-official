@@ -54,9 +54,21 @@
   transform: translateX(-100%);
 }
 
+.drawer__menu h1 {
+  font-size: 26px;
+  color: #ff9797;
+}
+
+.drawer__menu h2 {
+  margin-left: 10px;
+  font-size: 22px;
+  color: #97ffd7;
+}
+
 .drawer__menu a {
   display: block;
   padding: 10px;
+  margin-left: 10px;
   font-size: 18px;
   color: #c7c7c7;
 }
